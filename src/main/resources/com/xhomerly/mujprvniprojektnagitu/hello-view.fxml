@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Cylinder?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.xhomerly.mujprvniprojektnagitu.HelloController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="57.0" layoutX="150.0" layoutY="261.0" stroke="DODGERBLUE" strokeType="INSIDE" width="300.0" />
+      <Polygon fill="DODGERBLUE" layoutX="300.0" layoutY="221.0" points="-137.0, 40.0, 122.0, 40.0, -74.0, -35.0" stroke="DODGERBLUE" strokeType="INSIDE" strokeWidth="3.0" />
+      <Polygon fill="DODGERBLUE" layoutX="450.0" layoutY="132.0" points="-225.0, 54.0, -29.0, 129.0, -122.0, 54.0" stroke="DODGERBLUE" strokeType="INSIDE" strokeWidth="3.0" />
+      <Circle layoutX="180.0" layoutY="318.0" radius="38.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle layoutX="422.0" layoutY="318.0" radius="38.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.0" layoutX="287.0" layoutY="210.0" stroke="BLACK" strokeType="INSIDE" width="58.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.0" layoutX="218.0" layoutY="210.0" stroke="BLACK" strokeType="INSIDE" width="58.0" />
+      <ColorPicker editable="true" layoutX="221.0" layoutY="79.0">
+         <value>
+            <Color red="0.11764705926179886" green="0.5647059082984924" blue="1.0" />
+         </value>
+      </ColorPicker>
+      <Cylinder height="50.0" layoutX="125.0" layoutY="280.0" radius="10.0" rotate="-90.0" />
+   </children>
+</AnchorPane>
