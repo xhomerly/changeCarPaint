@@ -10,6 +10,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.xhomerly.mujprvniprojektnagitu.HelloController">
    <children>
+      <Cylinder height="50.0" layoutX="132.0" layoutY="226.0" radius="10.0" rotate="-90.0" />
 
       <Polygon fx:id="auto" fill="DODGERBLUE" layoutX="301.0" layoutY="142.0" points="-158.0, 94.0, 174.0, 94.0, 165.0, 41.0, 96.0, 22.0, 45.0, -31.0, -133.0, -31.0" stroke="DODGERBLUE" strokeType="INSIDE" strokeWidth="0.0" />
 
@@ -22,6 +23,5 @@
             <Color red="0.11764705926179886" green="0.5647059082984924" blue="1.0" />
          </value>
       </ColorPicker>
-      <Cylinder height="50.0" layoutX="126.0" layoutY="201.0" radius="10.0" rotate="-90.0" />
    </children>
 </AnchorPane>
