@@ -1,1 +1,1 @@
-# changeCarPaint
+Výuka gitu se Smišťou
