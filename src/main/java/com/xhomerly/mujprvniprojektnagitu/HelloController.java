@@ -8,6 +8,8 @@ public class HelloController {
     @FXML private Polygon auto;
     @FXML private ColorPicker colorPicker;
 
+    private boolean wracked = false;
+
     public void changeColor() {
         auto.setFill(colorPicker.getValue());
     }
