@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Slider?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.shape.Circle?>
@@ -14,8 +15,8 @@
 
       <Polygon fx:id="auto" fill="DODGERBLUE" layoutX="301.0" layoutY="142.0" points="-158.0, 94.0, 174.0, 94.0, 165.0, 41.0, 96.0, 22.0, 45.0, -31.0, -133.0, -31.0" stroke="DODGERBLUE" strokeType="INSIDE" strokeWidth="0.0" />
 
-      <Circle layoutX="181.0" layoutY="239.0" radius="38.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle layoutX="423.0" layoutY="239.0" radius="38.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="zadniKolo" layoutX="181.0" layoutY="239.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="predniKolo" layoutX="423.0" layoutY="239.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.0" layoutX="288.0" layoutY="131.0" stroke="BLACK" strokeType="INSIDE" width="58.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.0" layoutX="219.0" layoutY="131.0" stroke="BLACK" strokeType="INSIDE" width="58.0" />
       <ColorPicker fx:id="colorPicker" editable="true" layoutX="234.0" layoutY="303.0" onAction="#changeColor">
@@ -23,5 +24,6 @@
             <Color red="0.11764705926179886" green="0.5647059082984924" blue="1.0" />
          </value>
       </ColorPicker>
+      <Slider layoutX="155.0" layoutY="353.0" max="50.0" min="25.0" prefHeight="20.0" prefWidth="291.0" value="30.0" />
    </children>
 </AnchorPane>
